@@ -7,10 +7,8 @@
 
 html {
   height: 100%;
-}
-
-html {
   font-family: 'Oufit', sans-serif;
+  text-align: center;
   background-color: var(--lightGray);
 }
 
@@ -18,16 +16,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-content: center;
 }
 
 p {
   font-size: 0.9375rem;
-}
-
-.centeredText {
-  text-align: center;
 }
 
 .attribution {
@@ -45,11 +37,32 @@ p {
   align-items: center;
 }
 
-main {
+.card {
   background-color: var(--white);
-  width: 325px;
+  width: 320px;
+  border-radius: 15px;
+}
+
+.cardContent {
+  width: 288px;
+  margin: 16px auto;
 }
 
 #qrCode {
-  width: 300px;
+  display: block;
+  border-radius: 15px;
+  width: 288px;
+  margin-bottom: 25px;
+}
+
+.cardHeading {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--darkBlue);
+  margin-bottom: 15px;
+}
+.cardText {
+  color: var(--grayishBlue);
+  padding: 0 10px;
+  margin-bottom: 35px;
 }
