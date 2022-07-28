@@ -1,0 +1,27 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+}
+
+html {
+  font-family: 'Oufit', sans-serif;
+  background-color: var(--lightGray);
+}
+
+p {
+  font-size: 0.9375rem;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
