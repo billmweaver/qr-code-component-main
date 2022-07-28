@@ -6,8 +6,20 @@
 }
 
 html {
+  height: 100%;
+}
+
+html {
   font-family: 'Oufit', sans-serif;
   background-color: var(--lightGray);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
 }
 
 p {
@@ -24,4 +36,20 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: var(--white);
+  width: 325px;
+}
+
+#qrCode {
+  width: 300px;
 }
